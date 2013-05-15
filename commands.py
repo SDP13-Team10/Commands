@@ -1,8 +1,8 @@
-modes =	("NORMAL",  "CHECK_ID",  "READ", "SET", "TEACHER")
+modes =	("NORMAL",  "AUTH",  "READ", "SET", "TEACHER")
 
 stuff =	{
 	'00'  : "NORMAL", \
-	'01'  : "CHECK_ID", \
+	'01'  : "AUTH", \
 	'02'  : "READ",\
 	'03'  : "SET", \
 	'04'  : "TEACHER", \
@@ -16,7 +16,7 @@ stuff =	{
 	}
 MODES =	{
 	'0'  : "NORMAL", \
-	'1'  : "CHECK_ID", \
+	'1'  : "AUTH", \
 	'2'  : "READ",\
 	'3'  : "SET", \
 	'4'  : "TEACHER"
@@ -42,7 +42,7 @@ command = {
 
 modeLookUp = {
 	"normal"	: '0',\
-	"check_id"	: '1',\
+	"auth"	: '1',\
 	"read"		: '2',\
 	"set"		: '3',\
 	"teacher"	: '4'
