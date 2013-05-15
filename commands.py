@@ -1,3 +1,9 @@
+
+BaudRate = 9600
+keypadLocation = "/dev/ttyUSB0"
+motorLocation = "/dev/ttyACM0"
+databaseLocation = "/home/pi/ClockAideDatabase/ClockAideDB"
+
 modes =	("NORMAL",  "AUTH",  "READ", "SET", "TEACHER", "ADMIN")
 
 MODES =	{
@@ -35,5 +41,6 @@ modeLookUp = {
 	"teacher"	: '4',\
 	"admin"		: '5'
 }
+
 
 
