@@ -21,16 +21,24 @@ COMMAND = {
 	'2'  : "WAKE_UP",\
 	'3'  : "GET_TIME", \
 	'4'  : "RESET", \
-	'5'  : "SPEAK_TIME"
+	'5'  : "SPEAK_TIME", \
+	'6'  : "MORE", \
+	'7'  : "ACK", \
+	'8'  : "NAK", \
+	'9'  : "DATA"
 	}
 	
 command = {
-	"good"			: '0', \
-	"wrong"			: '1', \
+	"good"			: '0',\
+	"wrong"			: '1',\
 	"wake_up"		: '2',\
 	"get_time"		: '3',\
 	"reset"			: '4',\
-	"speak_time"	: '5'
+	"speak_time"	: '5',\
+	"more"			: '6',\
+	"ack"			: '7',\
+	"nak"			: '8',\
+	"data"			: '9' 
 }
 
 modeLookUp = {
